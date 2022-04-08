@@ -1,0 +1,26 @@
+/* Set the backround color of the body */
+body {
+    background-color: #1f1f1f;
+}
+/* rounded box */
+#ErrorBackground {
+    border-radius: 0px;
+    border: 1px solid rgb(126, 64, 64);
+    background-color: rgba(36, 11, 11, 0.219);
+    width: 600;
+    height: 250;
+}
+.ErrorText {
+    color: rgb(206, 71, 71);
+    font-size: 20px;
+    font-family: "Arial";
+    text-align: center;
+    padding-top: 20px;
+}
+.Center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
